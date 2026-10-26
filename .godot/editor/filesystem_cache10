@@ -1,0 +1,19 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1793046025
+20160624202841.jpg::CompressedTexture2D::5548715904603278022::1793043691::1793043692::1::::<><><>0<>0<>c4a6873375e91e09b41027e8f9ed58f8<>res://.godot/imported/20160624202841.jpg-a56c402d3441e8e178680de9043430aa.ctex::
+menu.tscn::PackedScene::7115425824899170042::1793045520::0::1::::<><><>0<>0<><>::uid://clav3irsoj12d::::res://scripts/menu.gd<>uid://clb3sms27scrm::::res://20160624202841.jpg<>uid://c1vottyfol5k7::::res://fonts/Diary Story.otf
+o_jogo.tscn::PackedScene::8584327089384751532::1793044562::0::1::::<><><>0<>0<><>::
+::res://fonts/::1793042889
+Diary Story.otf::FontFile::6641988238058534852::1793042845::1793042889::1::::<><><>0<>0<>da9dd77bfe2a0e9355c6e079f5bb5e6f<>res://.godot/imported/Diary Story.otf-48509b7a0dc8264ae97e2958b01031d5.fontdata::
+::res://RECURSOS/::1793043190
+images.jpg::CompressedTexture2D::412937820876921292::1793043190::1793043190::1::::<><><>0<>0<>1498541376e5e53e1372728898b1ff8c<>res://.godot/imported/images.jpg-ab0030d4e7f0463d3f6a62fa3cbf6315.ctex::
+::res://scripts/::1793042845
+game_over.gd::GDScript::4579274857154617006::1793042845::0::1::::<>Control<><>0<>0<><>::
+gerador_inimigos.gd::GDScript::7883833166339382585::1793042845::0::1::::<>Node2D<><>0<>0<><>::
+hud.gd::GDScript::8335887444223009346::1793042845::0::1::::<>CanvasLayer<><>0<>0<><>::
+inimigo.gd::GDScript::5555178273228686110::1793042845::0::1::::<>Area2D<><>0<>0<><>::
+menu.gd::GDScript::5546244153767398441::1793042845::0::1::::<>Control<><>0<>0<><>::
+parallax.gd::GDScript::1779225900731124199::1793042845::0::1::::<>ParallaxBackground<><>0<>0<><>::
+player.gd::GDScript::881387012059528788::1793042845::0::1::::<>CharacterBody2D<><>0<>0<><>::
+sinais.gd::GDScript::3642591027560833150::1793042845::0::1::::<>Node<><>0<>0<><>::
+tiro.gd::GDScript::259663434203555828::1793042845::0::1::::<>Area2D<><>0<>0<><>::

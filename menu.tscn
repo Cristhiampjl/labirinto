@@ -1,0 +1,75 @@
+[gd_scene format=3 uid="uid://c8m1a2p3q4r5s"]
+
+[ext_resource type="Script" uid="uid://clav3irsoj12d" path="res://scripts/menu.gd" id="1_mae5d"]
+[ext_resource type="Texture2D" uid="uid://clb3sms27scrm" path="res://20160624202841.jpg" id="2_mae5d"]
+[ext_resource type="FontFile" uid="uid://c1vottyfol5k7" path="res://fonts/Diary Story.otf" id="3_ytr4m"]
+
+[node name="Menu" type="Control" unique_id=621807158]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_mae5d")
+
+[node name="Fundo" type="TextureRect" parent="." unique_id=1617364888]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 1.0
+offset_top = -4.0
+offset_right = 8.0
+offset_bottom = 3.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_mae5d")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="Titulo" type="Label" parent="." unique_id=18115901]
+layout_mode = 0
+offset_left = -122.0
+offset_top = -15.0
+offset_right = 449.0
+offset_bottom = 73.0
+scale = Vector2(1, 1.12)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.6)
+theme_override_constants/shadow_offset_x = 3
+theme_override_constants/shadow_offset_y = 3
+theme_override_fonts/font = ExtResource("3_ytr4m")
+theme_override_font_sizes/font_size = 30
+text = "FUJA : LABIRINTO"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Botoes" type="VBoxContainer" parent="." unique_id=1046616969]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -71.0
+offset_top = -7.0
+offset_right = 74.0
+offset_bottom = 82.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 10
+
+[node name="Jogar" type="Button" parent="Botoes" unique_id=70692222]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_ytr4m")
+theme_override_font_sizes/font_size = 20
+text = "Jogar"
+
+[node name="Sair" type="Button" parent="Botoes" unique_id=810466569]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_ytr4m")
+theme_override_font_sizes/font_size = 20
+text = "Sair"
+
+[connection signal="pressed" from="Botoes/Jogar" to="." method="_on_jogar_pressed"]
+[connection signal="pressed" from="Botoes/Sair" to="." method="_on_sair_pressed"]
